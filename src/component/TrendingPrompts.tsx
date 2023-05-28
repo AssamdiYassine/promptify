@@ -1,5 +1,5 @@
 import * as React from "react";
-import { toAbsoluteUrl  } from '../helpers'
+// import { toAbsoluteUrl  } from '../helpers'
 
 import SVG from "react-inlinesvg";
 interface dataTopics {
