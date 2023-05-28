@@ -39,7 +39,7 @@ export default function NavBar() {
                                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                     <div className="flex flex-shrink-0 items-center">
                                         <SVG
-                                            src="../../public/logo.svg"
+                                            src="https://promptify-3n1t.vercel.app/public/logo.svg"
                                             width={"100px"}
                                         />
                                     </div>
