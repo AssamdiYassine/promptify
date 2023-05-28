@@ -1,4 +1,5 @@
 import * as React from "react";
+import { toAbsoluteUrl } from '../helpers'
 
 import SVG from "react-inlinesvg";
 interface dataTopics {
@@ -17,7 +18,7 @@ export default function TrendingPrompts() {
     const [prompts] = React.useState<dataTopics[]>([
         {
             "id": 1,
-            "img": '../../public/CartImage.svg',
+            "img": '/CartImage.svg',
             "title": "UX/UI Designer v2.1 - Rachel Johnson",
             "fullName": "John Bananus",
             "like": 256,
@@ -120,7 +121,7 @@ export default function TrendingPrompts() {
                         style={{ borderRadius: "20px 20px 20px 20px ", backgroundColor: "#F6F5FF" }}
                     >
 
-                        <div className={`bg-[url('${el.img}')] bg-cover bg-no-repeat w-100px h-200px `}
+                        <div className={`bg-[url(${toAbsoluteUrl(el.img)})] bg-cover bg-no-repeat w-100px h-200px `}
                             style={{ height: 300, borderRadius: "20px 20px 0 0 " }}>
 
                         </div>
@@ -146,7 +147,7 @@ export default function TrendingPrompts() {
 
                                 <div className=" flex content-center ">
                                     <SVG
-                                        src={"../../public/Avatar.svg"}
+                                        src={toAbsoluteUrl("/Avatar.svg")  }
                                         className="mx-1"
 
                                     />
@@ -158,7 +159,7 @@ export default function TrendingPrompts() {
                                     style={{ alignItems: 'center' }}
                                 >
                                     <SVG
-                                        src={"../../public/Favorite.svg"}
+                                        src={ toAbsoluteUrl("/Favorite.svg")}
                                         className=""
 
                                     />

@@ -1,6 +1,7 @@
 
  import { Disclosure} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { toAbsoluteUrl } from '../helpers'
 
 import SVG from "react-inlinesvg";
 import SearshBar from './searshBar';
@@ -39,7 +40,7 @@ export default function NavBar() {
                                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                     <div className="flex flex-shrink-0 items-center">
                                         <SVG
-                                            src="https://promptify-3n1t.vercel.app/public/logo.svg"
+                                            src={toAbsoluteUrl("/logo.svg")}
                                             width={"100px"}
                                         />
                                     </div>
