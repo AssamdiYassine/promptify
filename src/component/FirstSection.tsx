@@ -41,52 +41,52 @@ export default function FirstSection() {
         {
             "id": 1,
             "subject": "All Directions",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
         {
             "id": 2,
             "subject": "Personal Development",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
         {
             "id": 3,
             "subject": "Wellness",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
         {
             "id": 4,
             "subject": "Content Marketing",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
         {
             "id": 5,
             "subject": "Creative Writing",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
         {
             "id": 6,
             "subject": "Professional Writing",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
         {
             "id": 7,
             "subject": "Entertainment & Social",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
         {
             "id": 8,
             "subject": "Art",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
         {
             "id": 9,
             "subject": "Sustainability",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
         {
             "id": 10,
             "subject": "Tourism & Leisure",
-            "img": "/image.svg"
+            "img": "/Image.svg"
         },
 
 
