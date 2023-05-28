@@ -1,5 +1,5 @@
 import * as React from "react";
-import { toAbsoluteUrl } from '../helpers'
+import { toAbsoluteUrl  } from '../helpers'
 
 import SVG from "react-inlinesvg";
 interface dataTopics {
@@ -28,7 +28,40 @@ export default function TrendingPrompts() {
             ]
         },
         {
-            "id": 1,
+            "id": 2,
+            "img": '/CartImage.svg',
+            "title": "UX/UI Designer v2.1 - Rachel Johnson",
+            "fullName": "John Bananus",
+            "like": 256,
+            "tags": [
+
+                "Writer", "Books", "Drama", "Story"
+            ]
+        },
+        {
+            "id": 3,
+            "img": '/CartImage.svg',
+            "title": "UX/UI Designer v2.1 - Rachel Johnson",
+            "fullName": "John Bananus",
+            "like": 256,
+            "tags": [
+
+                "Writer", "Books", "Drama", "Story"
+            ]
+        },
+        {
+            "id": 4,
+            "img": '/CartImage.svg',
+            "title": "UX/UI Designer v2.1 - Rachel Johnson",
+            "fullName": "John Bananus",
+            "like": 256,
+            "tags": [
+
+                "Writer", "Books", "Drama", "Story"
+            ]
+        },
+        {
+            "id": 5,
             "img": '../../public/CartImage.svg',
             "title": "UX/UI Designer v2.1 - Rachel Johnson",
             "fullName": "John Bananus",
@@ -39,7 +72,7 @@ export default function TrendingPrompts() {
             ]
         },
         {
-            "id": 1,
+            "id": 6,
             "img": '../../public/CartImage.svg',
             "title": "UX/UI Designer v2.1 - Rachel Johnson",
             "fullName": "John Bananus",
@@ -50,7 +83,7 @@ export default function TrendingPrompts() {
             ]
         },
         {
-            "id": 1,
+            "id": 7,
             "img": '../../public/CartImage.svg',
             "title": "UX/UI Designer v2.1 - Rachel Johnson",
             "fullName": "John Bananus",
@@ -61,40 +94,7 @@ export default function TrendingPrompts() {
             ]
         },
         {
-            "id": 1,
-            "img": '../../public/CartImage.svg',
-            "title": "UX/UI Designer v2.1 - Rachel Johnson",
-            "fullName": "John Bananus",
-            "like": 256,
-            "tags": [
-
-                "Writer", "Books", "Drama", "Story"
-            ]
-        },
-        {
-            "id": 1,
-            "img": '../../public/CartImage.svg',
-            "title": "UX/UI Designer v2.1 - Rachel Johnson",
-            "fullName": "John Bananus",
-            "like": 256,
-            "tags": [
-
-                "Writer", "Books", "Drama", "Story"
-            ]
-        },
-        {
-            "id": 1,
-            "img": '../../public/CartImage.svg',
-            "title": "UX/UI Designer v2.1 - Rachel Johnson",
-            "fullName": "John Bananus",
-            "like": 256,
-            "tags": [
-
-                "Writer", "Books", "Drama", "Story"
-            ]
-        },
-        {
-            "id": 1,
+            "id": 8,
             "img": '../../public/CartImage.svg',
             "title": "UX/UI Designer v2.1 - Rachel Johnson",
             "fullName": "John Bananus",
@@ -117,12 +117,13 @@ export default function TrendingPrompts() {
 
             <div className=" grid sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4  sm:gap-3 md:gap-5  lg:gap-10 my-5   justify-center  ">
                 {prompts.map((el) => (
-                    <div key={el.id} className="       rounded-lg  shadow-sm "
+                    <div key={el.id} className="  rounded-lg  shadow-sm "
                         style={{ borderRadius: "20px 20px 20px 20px ", backgroundColor: "#F6F5FF" }}
                     >
 
-                        <div className={`bg-[url(${toAbsoluteUrl(el.img)})] bg-cover bg-no-repeat w-100px h-200px `}
+                        <div className={`bg-[url('../../public/CartImage.svg')] bg-cover bg-no-repeat w-100px h-200px `}
                             style={{ height: 300, borderRadius: "20px 20px 0 0 " }}>
+                                
 
                         </div>
 
