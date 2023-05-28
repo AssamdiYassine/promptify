@@ -1,0 +1,18 @@
+ .searshbarRes>div>div{
+    width: 100% !important;
+
+
+ }
+
+ @media only screen and (max-width: 700px) {
+    .searshbarRes2 {
+      display: none;
+
+    }
+    .welcome{
+        font-size: 38px !important;
+    }
+    .bodySearch>div{
+        width: 100% !important;
+    }
+  }
