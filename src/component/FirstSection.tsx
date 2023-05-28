@@ -41,52 +41,52 @@ export default function FirstSection() {
         {
             "id": 1,
             "subject": "All Directions",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
         {
             "id": 2,
             "subject": "Personal Development",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
         {
             "id": 3,
             "subject": "Wellness",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
         {
             "id": 4,
             "subject": "Content Marketing",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
         {
             "id": 5,
             "subject": "Creative Writing",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
         {
             "id": 6,
             "subject": "Professional Writing",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
         {
             "id": 7,
             "subject": "Entertainment & Social",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
         {
             "id": 8,
             "subject": "Art",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
         {
             "id": 9,
             "subject": "Sustainability",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
         {
             "id": 10,
             "subject": "Tourism & Leisure",
-            "img": "../../public/image.svg"
+            "img": "/image.svg"
         },
 
 

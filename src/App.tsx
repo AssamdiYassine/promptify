@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-[url('../../public/Backgroud.svg')] bg-cover bg-no-repeat backdrop-opacity-60  top-200">
+      <div className="bg-[url('/Backgroud.svg')] bg-cover bg-no-repeat backdrop-opacity-60  top-200">
 
         <NavBar2 />
         <FirstSection />

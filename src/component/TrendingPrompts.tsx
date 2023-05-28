@@ -62,7 +62,7 @@ export default function TrendingPrompts() {
         },
         {
             "id": 5,
-            "img": '../../public/CartImage.svg',
+            "img": '/CartImage.svg',
             "title": "UX/UI Designer v2.1 - Rachel Johnson",
             "fullName": "John Bananus",
             "like": 256,
@@ -73,7 +73,7 @@ export default function TrendingPrompts() {
         },
         {
             "id": 6,
-            "img": '../../public/CartImage.svg',
+            "img": '/CartImage.svg',
             "title": "UX/UI Designer v2.1 - Rachel Johnson",
             "fullName": "John Bananus",
             "like": 256,
@@ -84,7 +84,7 @@ export default function TrendingPrompts() {
         },
         {
             "id": 7,
-            "img": '../../public/CartImage.svg',
+            "img": '/CartImage.svg',
             "title": "UX/UI Designer v2.1 - Rachel Johnson",
             "fullName": "John Bananus",
             "like": 256,
@@ -95,7 +95,7 @@ export default function TrendingPrompts() {
         },
         {
             "id": 8,
-            "img": '../../public/CartImage.svg',
+            "img": '/CartImage.svg',
             "title": "UX/UI Designer v2.1 - Rachel Johnson",
             "fullName": "John Bananus",
             "like": 256,
@@ -121,7 +121,7 @@ export default function TrendingPrompts() {
                         style={{ borderRadius: "20px 20px 20px 20px ", backgroundColor: "#F6F5FF" }}
                     >
 
-                        <div className={`bg-[url('../../public/CartImage.svg')] bg-cover bg-no-repeat w-100px h-200px `}
+                        <div className={`bg-[url('/CartImage.svg')] bg-cover bg-no-repeat w-100px h-200px `}
                             style={{ height: 300, borderRadius: "20px 20px 0 0 " }}>
                                 
 
@@ -148,7 +148,7 @@ export default function TrendingPrompts() {
 
                                 <div className=" flex content-center ">
                                     <SVG
-                                        src={toAbsoluteUrl("/Avatar.svg")  }
+                                        src={"/Avatar.svg"  }
                                         className="mx-1"
 
                                     />
@@ -160,7 +160,7 @@ export default function TrendingPrompts() {
                                     style={{ alignItems: 'center' }}
                                 >
                                     <SVG
-                                        src={ toAbsoluteUrl("/Favorite.svg")}
+                                        src={ "/Favorite.svg"}
                                         className=""
 
                                     />
