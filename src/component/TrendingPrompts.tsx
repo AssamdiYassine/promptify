@@ -14,7 +14,7 @@ interface dataTopics {
 export default function TrendingPrompts() {
 
 
-    const [prompts, setprompts] = React.useState<dataTopics[]>([
+    const [prompts] = React.useState<dataTopics[]>([
         {
             "id": 1,
             "img": '../../public/CartImage.svg',

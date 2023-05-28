@@ -13,7 +13,7 @@ interface dataSubject {
 }
 
 export default function FirstSection() {
-    const [topics, setTopics] = React.useState<dataTopics[]>([
+    const [topics ] = React.useState<dataTopics[]>([
         {
             "id": 1,
             "topic": "Personal Finance"
@@ -37,7 +37,7 @@ export default function FirstSection() {
 
 
     ]);
-    const [subject, setSubject] = React.useState<dataSubject[]>([
+    const [subject ] = React.useState<dataSubject[]>([
         {
             "id": 1,
             "subject": "All Directions",
